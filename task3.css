@@ -1,0 +1,45 @@
+div.page{
+			background-color: #68cdd5;
+			width: 98.5vw;
+			height: 99vh;
+		}
+
+		div.main{
+			margin: auto;
+			text-align: center;
+
+		}
+		img{
+			margin-top: 5vh;
+		}
+		p{
+			color: white;
+			font-size: 19px;
+			font-family: sans-serif;
+			font-weight: 200;
+			letter-spacing: 0.02em;
+			width: 70vw;
+			margin: 10vh auto;
+
+		}
+		div.top img{
+			margin: 15px 0 0 15px;
+		}
+		div.button{
+			margin-top: 35vh;
+		}
+		div.button div{
+			position: relative;
+			margin: auto 10vw;
+		}
+		div.left{
+			float: left;
+		}
+		div.right{
+			float: right;
+		}
+		div.button div>span{
+			position: absolute;
+			top: 140px;
+			left: 7px;
+		}
