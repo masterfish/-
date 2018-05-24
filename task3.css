@@ -1,49 +1,65 @@
 body{
 	margin: 0;
 	background-color: #68cdd5;
+	height: 100vh;
 }
 
 div.page{
 			width: 100vw;
+			height: 95vh;
 
 		}
+		div.top{
+			margin-top: 23px;
+		}
 
+		div.top img{
+			margin: 0 0 0 35px;
+			width:54px;
+		}
 		div.main{
 			margin: auto;
 			text-align: center;
 
 		}
-		img{
-			margin-top: 50px;
+		div.main img.logo{
+			margin-top: 40px;
+			width:184px;
+			height: 73px;
 		}
 		p{
 			color: white;
-			font-size: 19px;
+			font-size: 1.6rem;
 			font-family: sans-serif;
 			font-weight: 200;
-			letter-spacing: 0.02em;
+			letter-spacing: 0.04em;
 			width: 70vw;
-			margin: 10vh auto;
+			margin: 120px auto 0 auto;
+			line-height: 1.8em;
+			text-align: left;
+			height: 180px;
 
 		}
-		div.top img{
-			margin: 15px 0 0 15px;
-		}
 		div.button{
-			margin-top: 25vh;
+			margin-top: 180px;
 		}
-		div.button div{
+		div.button>div{
 			position: relative;
-			margin: auto 10vw;
+
+		}
+		div.button div img{
+		
 		}
 		div.left{
 			float: left;
+			margin: 0 0 0 15vw;
 		}
 		div.right{
 			float: right;
+			margin: 0 15vw 0 0;
 		}
 		div.button div>span{
 			position: absolute;
-			top: 160px;
-			left: 7px;
+			top: 103px;
+			left: 1px;
 		}
