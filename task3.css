@@ -1,7 +1,11 @@
+body{
+	margin: 0;
+	background-color: #68cdd5;
+}
+
 div.page{
-			background-color: #68cdd5;
-			width: 98.5vw;
-			height: 99vh;
+			width: 100vw;
+
 		}
 
 		div.main{
@@ -10,7 +14,7 @@ div.page{
 
 		}
 		img{
-			margin-top: 5vh;
+			margin-top: 50px;
 		}
 		p{
 			color: white;
@@ -26,7 +30,7 @@ div.page{
 			margin: 15px 0 0 15px;
 		}
 		div.button{
-			margin-top: 35vh;
+			margin-top: 25vh;
 		}
 		div.button div{
 			position: relative;
@@ -40,6 +44,6 @@ div.page{
 		}
 		div.button div>span{
 			position: absolute;
-			top: 140px;
+			top: 160px;
 			left: 7px;
 		}
