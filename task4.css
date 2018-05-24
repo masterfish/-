@@ -52,7 +52,7 @@
 			position: absolute;
 			top: 50%;	/*以上层relative定位的div为基准，让需要对齐的元素顶端下降到50%位置*/
 			margin-top: -20.25px;	/*顶部应用负外边距，数值是元素height的一半，等于将元素升高自身高度的1/2，达成居中*/
-			height: 40.5px;		/*小缺陷，两个图高度相差1px,应该重新切图或者分开两个选择器写，但是迫于偷懒四舍五入到40.5……*/
+			height: 40.5px;		/*小缺陷，两个图高度相差1px,应该重新切图或者分开两个选择器写，但是迫于偷懒四舍五入到40.5*/
 			left: 40px;
 			padding-right: 21px;
 			border-right: solid 1px lightgrey;
