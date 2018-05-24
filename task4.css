@@ -75,6 +75,9 @@
 		input:-ms-input-placeholder{
 			color: #D1D1D1;
 		}
+		input:focus{
+			outline: none;
+		}
 
 		div.signup{
 			margin-top: 50px;
