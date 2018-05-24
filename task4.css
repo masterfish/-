@@ -69,6 +69,13 @@
 		input::-webkit-input-placeholder{
 			color: #D1D1D1;
 		}
+		input:-moz-placeholder {
+			color: #D1D1D1;
+		}
+		input:-ms-input-placeholder{
+			color: #D1D1D1;
+		}
+		
 		div.signup{
 			margin-top: 50px;
 			background-color: #5fc0cd;
