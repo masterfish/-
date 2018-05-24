@@ -1,0 +1,44 @@
+		body{
+			background-color: #eff0f4;
+			font-family: sans-serif;
+		}
+		div.head{
+			background-color: #5fc0cd;
+			height:10vh;
+			width: 100%;
+			vertical-align: middle;
+			position: relative;
+		}
+		section.headText{
+			position: absolute;
+			width: 100vw;
+			top: 32%;
+			font-size: 20px;
+			color: white;
+			font-weight: 200;
+			text-align: center;
+		}
+		span.left{
+			position:absolute;
+			left: 2%;
+		}
+		span.center{
+			font-weight: 600;
+		}
+		span.right{
+			position:absolute;
+			right: 4%;
+		}
+		div.inputzone{
+
+		}
+		div.inputzone div{
+			background-color: white;
+			padding: 5px 50% 5px 50%;
+			margin-bottom: 10px;
+		}
+		div.inputzone img{
+			margin-left: 15px;
+			padding-right: 15px;
+			border-right: solid 1px lightgrey;
+		}
