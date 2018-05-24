@@ -1,33 +1,31 @@
 		body{
 			background-color: #eff0f4;
 			font-family: sans-serif;
-		}
-		div.head{
-			background-color: #5fc0cd;
-			height:10vh;
-			width: 100%;
-			vertical-align: middle;
-			position: relative;
-		}
-		section.headText{
-			position: absolute;
 			width: 100vw;
-			top: 32%;
-			font-size: 20px;
+		}
+		div.header{
+			background-color: #5fc0cd;
 			color: white;
+			height:100px;
+			position: relative;
 			font-weight: 200;
 			text-align: center;
+			font-size: 30px;
+		}
+		div.header span{
+			position:absolute;
+			top: 30px;
 		}
 		span.left{
-			position:absolute;
-			left: 2%;
+			left: 28.7px;
 		}
 		span.center{
 			font-weight: 600;
+			left: 50%;
+			transform: translate(-50%)
 		}
 		span.right{
-			position:absolute;
-			right: 4%;
+			right: 28.7px;
 		}
 		div.inputzone{
 
@@ -36,9 +34,22 @@
 			background-color: white;
 			padding: 5px 50% 5px 50%;
 			margin-bottom: 10px;
+			height: 44px;
 		}
 		div.inputzone img{
-			margin-left: 15px;
-			padding-right: 15px;
+			position: absolute;
+			left: 40px;
+			padding-right: 21px;
 			border-right: solid 1px lightgrey;
+			width: 27px;
+		}
+		input{
+			margin-top: 5.5px;
+			position: absolute;
+			height: 31px;
+			left: 109px;
+			color: #B7B7B7;
+			font-size: 18px;
+			font-weight: 200;
+			border-style: none;
 		}
