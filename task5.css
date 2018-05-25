@@ -16,6 +16,11 @@ span.grey{
 	color: #8D8D8D;
 }
 
+a:link,:visited:hover:active{
+	color: inherit;
+	text-decoration-line: none;
+}
+
 
 /*header部分*/
 div.header{
@@ -25,6 +30,7 @@ div.header{
 	height: 80px;
 	width: 100vw;
 	font-size: 36px;
+	z-index: 999;
 }
 
 div.header div.container{
@@ -95,17 +101,97 @@ div.content{
 }
 div.content > 
 div{
-	height: 100px;
+	position: relative;
 	line-height: 100px;
+	color: #333333;
 	border-bottom: 1px solid #BDBDBD;
 	font-size: 32px;
 	font-weight: 400;
 }
-span.skill{
-	border-left: solid 
+div.content span{
+	height: 100px;
+	padding: 0 27px;
 }
-div.content >
-div 
-p,span{
 
+div.content > 
+div >
+span.skill{
+	border-left: solid #5fc0cd;
+	padding-left: 27px;
 }
+
+div.content >
+div.star >
+span.left{
+	color: #333;
+}
+
+div.content >
+div >
+span.left{
+	padding-left: 27px;
+	border-right: solid 1px #e1e5e7;
+	color: #999999;
+}
+
+div.content span.price{
+	color: #e26163;
+}
+
+div.content > 
+div.intro{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items:center;
+}
+
+div.content >
+div.intro >
+span.left{
+	flex-grow: 0;
+	flex-shrink: 0;
+	width: 129px;
+}
+
+div.content >
+div.intro >
+div.text{
+	flex-grow: 1;
+	flex-shrink: 1;
+	margin: 20px 0;
+	padding-left: 27px;
+	font-size: 28px;
+	line-height: 1.2em;
+}
+
+/*button区域*/
+div.button{
+	margin: 96px 0 0 0;
+	text-align: center;
+}
+div.button div{
+	display: inline-block;
+	position: relative;
+	margin: 0 2.5%;
+	width: 44%;
+	height: 87px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 34px;
+}
+div.button div.message{
+	color: #5fc0cd;
+	background-color: #fff;
+	border: solid 1px;
+}
+
+div.button div.phone{
+	color: #fff;
+	background-color: #5fc0cd;
+	border: solid 1px;
+}
+
+div.button div span{
+	position: relative;
+	top: 21.5px;
