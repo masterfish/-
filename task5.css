@@ -7,7 +7,6 @@ body{
 }
 div.container{					/*我是全局内容容器*/
 	padding: 0 30px;			/*左右页边距30px*/
-								/*宽度占满父对象*/
 	height: 100%;				/*高度占满父对象*/
 	font-weight: 200;
 }
@@ -123,7 +122,7 @@ span.skill{
 	padding-left: 27px;
 }
 
-div.content >
+div.content >					/*「住家」单独赋予黑色*/
 div.star >
 span.left{
 	color: #333;
