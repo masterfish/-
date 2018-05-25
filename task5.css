@@ -43,12 +43,12 @@ div.header img{
 	position: absolute;
 	top: 50%;
 	left: 30px;
+
 	margin-top: -18.5px;
 
 }
 
 div.header span{
-	vertical-align: middle;
 	color: #fff;
 
 }
@@ -151,6 +151,8 @@ div.intro >
 span.left{
 	flex-grow: 0;
 	flex-shrink: 0;
+	height: 45px;
+	line-height: 45px;
 }
 
 div.content >
