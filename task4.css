@@ -60,11 +60,16 @@
 
 		}
 		input{
+   			box-sizing: border-box;
+			width: 100vw;
+			height: 64px;
+			text-indent:104px; 
+
 			position: absolute;
+			left:0;
 			top: 50%;			/*同上*/
-			margin-top: -16px;	/*line66 height数值的1/2*/
-			height: 32px;
-			left: 109px;
+			margin-top: -32px;	/*line66 height数值的1/2*/
+			height: 64px;
 			color: #111111;
 			font-size: 18px;
 			font-weight: 200;
