@@ -1,0 +1,111 @@
+/*全局部分*/
+body{
+	margin: 0;
+}
+div.container{					/*我是全局内容容器*/
+	padding: 0 30px;			/*左右页边距30px*/
+								/*宽度占满父对象*/
+	height: 100%;				/*高度占满父对象*/
+	font-weight: 200;
+}
+
+span.bold{						/*各种字体变化*/
+	font-weight: 900;
+}
+span.grey{
+	color: #8D8D8D;
+}
+
+
+/*header部分*/
+div.header{
+	position: fixed;
+	top: 0;						/*置顶*/
+	background-color: #5fc0cd;
+	height: 80px;
+	width: 100vw;
+	font-size: 36px;
+}
+
+div.header div.container{
+	height: 100%;
+	line-height: 80px;
+	text-align: center;
+}
+
+div.header img{
+	position: absolute;
+	top: 50%;
+	left: 30px;
+	margin-top: -18.5px;
+
+}
+
+div.header span{
+	vertical-align: middle;
+	color: #fff;
+
+}
+
+/*banner部分*/
+div.banner{
+	margin-top: 80px;
+	height: 327px;
+	background-image: url(./task5images/background.png);
+	background-repeat:no-repeat;
+	background-size: 100%
+}
+div.banner > div.container{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content:flex-start;
+	align-items: center;
+}
+div.banner > 
+div.container > 
+div.info{
+	margin-left: 50px;
+	color: #FFF;
+}
+
+span.name{
+	font-size: 36px;
+}
+span.old{
+	font-size: 28px;
+}
+
+div.banner > 
+div.container > 			
+div.info
+*{
+	vertical-align: middle;		/*文字与图标居中对齐*/
+}
+div.info >
+p +
+p{
+	font-size: 24px;
+}
+
+/*content部分*/
+div.content{
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content:flex-start;
+}
+div.content > 
+div{
+	height: 100px;
+	line-height: 100px;
+	border-bottom: 1px solid #BDBDBD;
+	font-size: 32px;
+	font-weight: 400;
+}
+span.skill{
+	border-left: solid 
+}
+div.content >
+div 
+p,span{
+
+}
