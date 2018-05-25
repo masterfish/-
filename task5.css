@@ -151,7 +151,6 @@ div.intro >
 span.left{
 	flex-grow: 0;
 	flex-shrink: 0;
-	width: 129px;
 }
 
 div.content >
@@ -167,7 +166,7 @@ div.text{
 
 /*button区域*/
 div.button{
-	margin: 96px 0 0 0;
+	margin: 96px 0 40px 0;
 	text-align: center;
 }
 div.button div{
