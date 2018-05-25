@@ -1,4 +1,7 @@
 /*全局部分*/
+html{
+	font-size: 62.5%
+}
 body{
 	margin: 0;
 }
@@ -29,7 +32,7 @@ div.header{
 	background-color: #5fc0cd;
 	height: 80px;
 	width: 100vw;
-	font-size: 36px;
+	font-size: 3.6rem;
 	z-index: 999;
 }
 
@@ -39,13 +42,13 @@ div.header div.container{
 	text-align: center;
 }
 
-div.header img{
+div.header button{
 	position: absolute;
 	top: 50%;
 	left: 30px;
-
 	margin-top: -18.5px;
-
+	background-color: inherit;
+	border: none;
 }
 
 div.header span{
@@ -75,10 +78,10 @@ div.info{
 }
 
 span.name{
-	font-size: 36px;
+	font-size: 3.6rem;
 }
 span.old{
-	font-size: 28px;
+	font-size: 2.8rem;
 }
 
 div.banner > 
@@ -90,7 +93,7 @@ div.info
 div.info >
 p +
 p{
-	font-size: 24px;
+	font-size: 2.4rem;
 }
 
 /*content部分*/
@@ -105,7 +108,7 @@ div{
 	line-height: 100px;
 	color: #333333;
 	border-bottom: 1px solid #BDBDBD;
-	font-size: 32px;
+	font-size: 3.2rem;
 	font-weight: 400;
 }
 div.content span{
@@ -162,7 +165,7 @@ div.text{
 	flex-shrink: 1;
 	margin: 20px 0;
 	padding-left: 27px;
-	font-size: 28px;
+	font-size: 2.8rem;
 	line-height: 1.2em;
 }
 
@@ -179,7 +182,7 @@ div.button div{
 	height: 87px;
 	border-radius: 10px;
 	text-align: center;
-	font-size: 34px;
+	font-size: 3.4rem;
 }
 div.button div.message{
 	color: #5fc0cd;
