@@ -23,12 +23,7 @@ a:link,:visited:hover:active{	/*取消链接的内置样式*/
 	color: inherit;
 	text-decoration-line: none;
 }
-.space {						/*禁止inline元素增加空格*/
-    font-size: 0;
-}
-.space a{
-	font-size: 12px;
-}
+
 
 
 /*header部分*/
