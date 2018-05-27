@@ -1,12 +1,13 @@
 /*全局部分*/
 html{
-	font-size: 62.5%
+	font-size: 62.5%;
+	font-family:  sans-serif;
 }
 body{
 	margin: 0;
 }
 div.container{					/*我是全局内容容器*/
-	padding: 0 30px;			/*左右页边距30px*/
+	padding: 0 0 0 30px;		/*左右页边距30px*/
 	height: 100%;				/*高度占满父对象*/
 	font-weight: 200;
 }
@@ -18,9 +19,15 @@ span.grey{
 	color: #8D8D8D;
 }
 
-a:link,:visited:hover:active{
+a:link,:visited:hover:active{	/*取消链接的内置样式*/
 	color: inherit;
 	text-decoration-line: none;
+}
+.space {						/*禁止inline元素增加空格*/
+    font-size: 0;
+}
+.space a{
+	font-size: 12px;
 }
 
 
@@ -100,6 +107,7 @@ div.content{
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content:flex-start;
+	margin-bottom: 200px;
 }
 div.content > 
 div{
@@ -116,8 +124,15 @@ div.content span{
 }
 
 div.content > 
+div.skill{
+	position: relative;
+	left: -30px;				/*修正，分隔线占满视口*/
+	width: 100vw;
+}
+div.content > 
 div >
 span.skill{
+	margin-left: 30px;			/*修正*/
 	border-left: solid #5fc0cd;
 	padding-left: 27px;
 }
@@ -146,11 +161,15 @@ div.intro{
 	flex-flow: row nowrap;
 	justify-content: center;
 	align-items:center;
+	position: relative;
+	left: -30px;				/*修正，分隔线占满视口*/
+	width: 100vw;
 }
 
 div.content >
 div.intro >
 span.left{
+	margin-left: 30px;			/*修正*/
 	flex-grow: 0;
 	flex-shrink: 0;
 	height: 45px;
@@ -170,13 +189,18 @@ div.text{
 
 /*button部分*/
 div.button{
-	margin: 96px 0 40px 0;
+	position: fixed;
+	bottom: 0;
+	height: 150px;
+	width: 100vw;
+	margin: 96px 0px 0px 0px;
 	text-align: center;
+	background: #FFF;
 }
 div.button div{
 	display: inline-block;
 	position: relative;
-	margin: 0 2.5%;
+	margin: 10px 2.5%;
 	width: 44%;
 	height: 87px;
 	border-radius: 10px;
@@ -198,3 +222,4 @@ div.button div.phone{
 div.button div span{
 	position: relative;
 	top: 21.5px;
+}
