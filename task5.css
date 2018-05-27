@@ -25,7 +25,6 @@ a:link,:visited:hover:active{	/*取消链接的内置样式*/
 }
 
 
-
 /*header部分*/
 div.header{
 	position: fixed;
@@ -102,7 +101,7 @@ div.content{
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content:flex-start;
-	margin-bottom: 200px;
+	margin-bottom: 151px;
 }
 div.content > 
 div{
