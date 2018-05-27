@@ -1,0 +1,207 @@
+/*全局部分*/
+	html{
+		font-size: 62.5%;
+		font-family:  sans-serif;
+	}
+	body{
+		margin: 0;
+	}
+
+	a:link,:visited:hover:active{	/*取消链接的内置样式*/
+		color: inherit;
+		text-decoration-line: none;
+	}
+
+
+/*header部分*/
+div.header{
+	position: fixed;
+	top: 0;						/*置顶*/
+	background-color: #5fc0cd;
+	height: 80px;
+	width: 100vw;
+	font-size: 3.6rem;
+	z-index: 999;
+}
+
+div.header div.container{
+	height: 100%;
+	line-height: 80px;
+	text-align: center;
+}
+
+div.header button{
+	position: absolute;
+	top: 50%;
+	left: 30px;
+	margin-top: -18.5px;
+	background-color: inherit;
+	border: none;
+}
+
+div.header span{
+	color: #fff;
+
+}
+
+/*banner部分*/
+div.banner{
+	margin-top: 80px;
+	height: 327px;
+	background-image: url(./task5images/background.png);
+	background-repeat:no-repeat;
+	background-size: 100%
+}
+div.banner > div.container{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content:flex-start;
+	align-items: center;
+}
+div.banner > 
+div.container > 
+div.info{
+	margin-left: 50px;
+	color: #FFF;
+}
+
+span.name{
+	font-size: 3.6rem;
+}
+span.old{
+	font-size: 2.8rem;
+}
+
+div.banner > 
+div.container > 			
+div.info
+*{
+	vertical-align: middle;		/*文字与图标居中对齐*/
+}
+div.info >
+p +
+p{
+	font-size: 2.4rem;
+}
+
+/*content部分*/
+div.content{
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content:flex-start;
+	margin-bottom: 151px;
+}
+div.content > 
+div{
+	position: relative;
+	line-height: 100px;
+	color: #333333;
+	border-bottom: 1px solid #BDBDBD;
+	font-size: 3.2rem;
+	font-weight: 400;
+}
+div.content span{
+	height: 100px;
+	padding: 0 27px;
+}
+
+div.content > 
+div.skill{
+	position: relative;
+	left: -30px;				/*修正，分隔线占满视口*/
+	width: 100vw;
+}
+div.content > 
+div >
+span.skill{
+	margin-left: 30px;			/*修正*/
+	border-left: solid #5fc0cd;
+	padding-left: 27px;
+}
+
+div.content >					/*「住家」单独赋予黑色*/
+div.star >
+span.left{
+	color: #333;
+}
+
+div.content >
+div >
+span.left{
+	padding-left: 27px;
+	border-right: solid 1px #e1e5e7;
+	color: #999999;
+}
+
+div.content span.price{
+	color: #e26163;
+}
+
+div.content > 
+div.intro{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items:center;
+	position: relative;
+	left: -30px;				/*修正，分隔线占满视口*/
+	width: 100vw;
+}
+
+div.content >
+div.intro >
+span.left{
+	margin-left: 30px;			/*修正*/
+	flex-grow: 0;
+	flex-shrink: 0;
+	height: 45px;
+	line-height: 45px;
+}
+
+div.content >
+div.intro >
+div.text{
+	flex-grow: 1;
+	flex-shrink: 1;
+	margin: 20px 40px 20px 0 ;
+	padding-left: 27px;
+	font-size: 2.8rem;
+	line-height: 1.2em;
+}
+
+/*button部分*/
+div.button{
+	position: fixed;
+	bottom: 0;
+	height: 150px;
+	width: 100vw;
+	margin: 96px 0px 0px 0px;
+	text-align: center;
+	background: #FFF;
+}
+div.button div{
+	display: inline-block;
+	position: relative;
+	margin: 10px 2.5%;
+	width: 44%;
+	height: 87px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 3.4rem;
+}
+div.button div.message{
+	color: #5fc0cd;
+	background-color: #fff;
+	border: solid 1px;
+}
+
+div.button div.phone{
+	color: #fff;
+	background-color: #5fc0cd;
+	border: solid 1px;
+}
+
+div.button div span{
+	position: relative;
+	top: 21.5px;
+}
