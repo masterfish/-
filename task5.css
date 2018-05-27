@@ -176,7 +176,7 @@ div.intro >
 div.text{
 	flex-grow: 1;
 	flex-shrink: 1;
-	margin: 20px 0;
+	margin: 20px 40px 20px 0 ;
 	padding-left: 27px;
 	font-size: 2.8rem;
 	line-height: 1.2em;
