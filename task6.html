@@ -3,11 +3,217 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Task-6</title>
+
+<!--自定的CSS-->
 	<link rel="stylesheet" href="./task6.css">
+
+<!-- 	载入popper.js -->
+	<script src="./popper.js"></script>
+
+<!-- 载入Bootstrap -->
+	<script src="./jquery-3.3.1.min.js"></script>
+	<link href="./bootstrap-4.1.1-dist/css/bootstrap.css" rel="stylesheet" />
+	<script src="./bootstrap-4.1.1-dist/js/bootstrap.min.js"></script>
+
+<!-- 	载入switch -->
+	<link href="./bootstrap-switch.css" rel="stylesheet" />
+	<script src="./bootstrap-switch.js"></script>
+
 </head>
+
 <body>
-	<div class="header"></div>
-	<div class="main"></div>
-	<div class="foot"></div>
+	<div class="header">
+		<div class="sprite StatusBar"></div>
+
+<!--开关滑块-->
+		<div class="scale switch">
+			<input type="checkbox" 
+			data-size="large" 
+			data-on-color="#52a8b5" 
+			name="my-checkbox" 
+			data-on-Text="找雇主"
+			data-off-Text="找雇主"
+			data-label-Text="找护工"
+			data-off-color="#52a8b5" 
+			data-wrapper-class="switchWrapper"
+			checked />
+		</div>
+			<script>$("[name='my-checkbox']").bootstrapSwitch();</script>
+	</div>
+
+
+	<div class="main">	
+
+<!--3个下拉菜单的容器 -->
+		<div class="menus">
+
+<!-- 第1个下拉菜单 -->
+			<div class="menu1">
+				<div class="dropdown">
+					<button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">所在地</button>
+					<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+						<li>
+							<a href="#">北京</a>            
+						 </li>
+						 <li role="presentation">
+							<a href="#">广州</a>             
+						 </li>
+						 
+						 <li role="presentation">
+							<a href="#">上海</a>          
+						 </li>
+						 <li role="presentation">
+							<a href="#">江苏</a>            
+						 </li>
+					</ul>
+				</div>
+			</div>
+
+<!-- 第2个下拉菜单 -->
+			<div class="menu2">
+				<div class="dropdown">
+					<button type="button" class="btn dropdown-toggle" id="dropdownMenu2"
+					data-toggle="dropdown">食宿</button>
+					<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+						<li>
+							<a href="#">住家</a>            
+						 </li>
+						 <li role="presentation">
+							<a href="#">不住家</a>              
+						 </li>
+					</ul>
+				</div>
+			</div>
+			
+<!-- 第3个下拉菜单 -->
+			<div class="menu3">
+				<div class="dropdown">
+					<button type="button" class="btn dropdown-toggle" id="dropdownMenu3" 
+					data-toggle="dropdown">病人情况</button>
+					<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+						<li>
+							<a href="#">卧床</a> 
+						 </li>
+						 <li role="presentation">
+							<a href="#">轮椅</a>             
+						 </li>
+						 
+						 <li role="presentation">
+							<a href="#">完全自理</a>          
+						 </li>
+						 <li role="presentation">
+							<a href="#">其他</a>            
+						 </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+<!-- 主要信息表格 -->
+		<div class="info">
+
+<!------表格项------>
+			<div class="item">
+				<div class="left">
+					<div class="sprite calendar"></div><span>服务日期</span>
+					<p>2015-7-5至2015-7-12</p>
+					<div class="sprite location"></div><span class="location">北京.通州.果园</span>
+				</div>
+				<div class="right">
+					<span class="price">25元/小时</span>
+					<button class="btn"><div class="sprite right"></div></button>
+				</div>
+			</div>
+
+<!------表格项------>
+            <div class="item">
+                <div class="left">
+                    <div class="sprite calendar"></div><span>服务日期</span>
+                    <p>2015-7-5至2015-7-12</p>
+                    <div class="sprite location"></div><span class="location">北京.通州.果园</span>
+                </div>
+                <div class="right">
+                    <span class="price">25元/小时</span>
+                    <button class="btn"><div class="sprite right"></div></button>
+                </div>
+            </div>
+
+<!------表格项------>
+            <div class="item">
+                <div class="left">
+                    <div class="sprite calendar"></div><span>服务日期</span>
+                    <p>2015-7-5至2015-7-12</p>
+                    <div class="sprite location"></div><span class="location">北京.通州.果园</span>
+                </div>
+                <div class="right">
+                    <span class="price">25元/小时</span>
+                    <button class="btn"><div class="sprite right"></div></button>
+                </div>
+            </div>
+
+<!------表格项------>
+            <div class="item">
+                <div class="left">
+                    <div class="sprite calendar"></div><span>服务日期</span>
+                    <p>2015-7-5至2015-7-12</p>
+                    <div class="sprite location"></div><span class="location">北京.通州.果园</span>
+                </div>
+                <div class="right">
+                    <span class="price">25元/小时</span>
+                    <button class="btn"><div class="sprite right"></div></button>
+                </div>
+            </div>
+
+<!------表格项------>
+            <div class="item">
+                <div class="left">
+                    <div class="sprite calendar"></div><span>服务日期</span>
+                    <p>2015-7-5至2015-7-12</p>
+                    <div class="sprite location"></div><span class="location">北京.通州.果园</span>
+                </div>
+                <div class="right">
+                    <span class="price">25元/小时</span>
+                    <button class="btn"><div class="sprite right"></div></button>
+                </div>
+            </div>
+
+<!------表格项------>
+            <div class="item">
+                <div class="left">
+                    <div class="sprite calendar"></div><span>服务日期</span>
+                    <p>2015-7-5至2015-7-12</p>
+                    <div class="sprite location"></div><span class="location">北京.通州.果园</span>
+                </div>
+                <div class="right">
+                    <span class="price">25元/小时</span>
+                    <button class="btn"><div class="sprite right"></div></button>
+                </div>
+            </div>
+	   </div>
+    </div>
+	<div class="footer">
+        <div class="icons">
+            <div class="left">
+                <button class="btn">
+                    <div class="sprite house"></div>
+                    <p>首页</p> 
+                </button>
+            </div>
+            <button class="btn">
+                <div class="sprite Write"></div>
+            </button>
+            <div class="right">
+                <button class="btn">
+                    <div class="sprite guy"></div>
+                    <p>我的</p>
+                </button>
+                
+                
+            </div>
+            
+        </div>
+
+
+	</div>
 </body>
 </html>
